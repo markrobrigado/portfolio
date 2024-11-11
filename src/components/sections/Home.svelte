@@ -10,8 +10,7 @@
     <div class="flex space-x-0.5 overflow-hidden">
       <div class="flex space-x-0.5 animate-loop-scroll">
         {#each Array(5) as _}
-          <span
-            class="text-[256px] leading-[0.85] font-black text-fill-transparent"
+          <span class="text-[256px] leading-[0.85] font-black text-gray-300"
             >{string}</span
           >
         {/each}
@@ -19,8 +18,7 @@
 
       <div class="flex space-x-0.5 animate-loop-scroll" aria-hidden="true">
         {#each Array(5) as _}
-          <span
-            class="text-[256px] leading-[0.85] font-black text-fill-transparent"
+          <span class="text-[256px] leading-[0.85] font-black text-gray-300"
             >{string}</span
           >
         {/each}
@@ -30,8 +28,7 @@
     <div class="flex space-x-0.5 overflow-hidden">
       <div class="flex space-x-0.5 animate-loop-scroll-reverse">
         {#each Array(5) as _}
-          <span
-            class="text-[256px] leading-[0.85] font-black text-fill-transparent"
+          <span class="text-[256px] leading-[0.85] font-black text-gray-300"
             >{string}</span
           >
         {/each}
@@ -41,8 +38,7 @@
         aria-hidden="true"
       >
         {#each Array(5) as _}
-          <span
-            class="text-[256px] leading-[0.85] font-black text-fill-transparent"
+          <span class="text-[256px] leading-[0.85] font-black text-gray-300"
             >{string}</span
           >
         {/each}
@@ -52,16 +48,14 @@
     <div class="flex space-x-0.5 overflow-hidden">
       <div class="flex space-x-0.5 animate-loop-scroll">
         {#each Array(5) as _}
-          <span
-            class="text-[256px] leading-[0.85] font-black text-fill-transparent"
+          <span class="text-[256px] leading-[0.85] font-black text-gray-300"
             >{string}</span
           >
         {/each}
       </div>
       <div class="flex space-x-0.5 animate-loop-scroll" aria-hidden="true">
         {#each Array(5) as _}
-          <span
-            class="text-[256px] leading-[0.85] font-black text-fill-transparent"
+          <span class="text-[256px] leading-[0.85] font-black text-gray-300"
             >{string}</span
           >
         {/each}
