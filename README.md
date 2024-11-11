@@ -1,38 +1,39 @@
-# sv
+# My Portfolio
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+Welcome to my portfolio website! This single-page site showcases my projects, background, and ways to get in touch. Built with Svelte, Tailwind CSS, and custom CSS animations.
 
-## Creating a project
+## 🛠️ Tech Stack
 
-If you're seeing this, you've probably already done this step. Congrats!
+- **Framework:** Svelte
+- **Styling:** Tailwind CSS
+- **Animations:** Custom CSS and JavaScript for dynamic effects
 
-```bash
-# create a new project in the current directory
-npx sv create
+## 🚀 Features
 
-# create a new project in my-app
-npx sv create my-app
-```
+- **Responsive Design:** Optimized for various screen sizes.
+- **Stylized Animations:** Includes custom marquee animations.
 
-## Developing
+## ⚙️ Installation
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+To run this project locally, follow these steps:
 
-```bash
-npm run dev
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/markrobrigado/portfolio.git
+   cd portfolio
+   ```
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+3. **Run the development server:**
+   ```bash
+   npm run dev
+   ```
+4. **Open in browser:** Go to `localhost:5173` to view your site.
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+## 📄 License
 
-## Building
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+_Feel free to explore the code, leave feedback, or reach out with any questions._
