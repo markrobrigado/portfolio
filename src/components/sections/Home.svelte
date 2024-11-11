@@ -1,5 +1,6 @@
 <script>
   const string = "HELLO";
+  const src = "/hello.png";
 </script>
 
 <div
@@ -68,6 +69,6 @@
     </div>
   </div>
   <div class="relative flex justify-center">
-    <a href="#about" class="text-[256px]">👋</a>
+    <a href="#about"><img {src} alt="animated waving hand emoji" /></a>
   </div>
 </div>
