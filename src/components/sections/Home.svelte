@@ -1,6 +1,6 @@
 <script>
+  import { base } from "$app/paths";
   const string = "HELLO";
-  const src = "/hello.png";
 </script>
 
 <div
@@ -69,6 +69,8 @@
     </div>
   </div>
   <div class="relative flex justify-center">
-    <a href="#about"><img {src} alt="animated waving hand emoji" /></a>
+    <a href="#about"
+      ><img src={`${base}/hello.png`} alt="animated waving hand emoji" /></a
+    >
   </div>
 </div>
