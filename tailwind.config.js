@@ -4,23 +4,35 @@ export default {
   theme: {
     fontFamily: {
       sans: ['"Helvetica"', "sans-serif"],
-      mono: ['"Consolas"', "monospace"],
     },
     extend: {
+      textColor: {
+        "transparent-fill": "transparent",
+      },
       animation: {
-        typing:
-          "typing 1s steps(6) forwards, cursor 0.5s step-end infinite alternate",
+        "loop-scroll": "loop-scroll 50s linear infinite",
+        "loop-scroll-reverse": "loop-scroll-reverse 50s linear infinite",
       },
       keyframes: {
-        typing: {
-          from: { width: "0" },
-          to: { width: "100%" },
+        "loop-scroll": {
+          from: { transform: "translateX(0%)" },
+          to: { transform: "translateX(-100%)" },
         },
-        cursor: {
-          "50%": { borderColor: "transparent" },
+        "loop-scroll-reverse": {
+          from: { transform: "translateX(-100%)" },
+          to: { transform: "translateX(0%)" },
         },
       },
     },
   },
-  plugins: [],
+  plugins: [
+    function ({ addUtilities }) {
+      addUtilities({
+        ".text-fill-transparent": {
+          "-webkit-text-fill-color": "transparent",
+          "-webkit-text-stroke": "6px gray",
+        },
+      });
+    },
+  ],
 };
